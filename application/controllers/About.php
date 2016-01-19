@@ -23,5 +23,7 @@ class About extends Application {
         $data['page_title']	= 'About This Gallery';
         $data['content'] 	= 'about';
         $this->load->view('template', $data);
+//        $this->data['pagebody'] = 'about';
+//        $this->render();
     }
 }
